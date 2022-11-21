@@ -302,10 +302,7 @@ namespace EmailNotification
 
                 }
             }
-
-
             
-
         }
 
         void CheckOpen()
