@@ -1,0 +1,38 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ChangeMgmt.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="DayXConnectionString" Type="(Connection string)" Scope="Application">
+      <DesignTimeValue Profile="(Default)">&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;SerializableConnectionString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;ConnectionString&gt;Data Source=svru1mssql01;Initial Catalog=DayX;Persist Security Info=True;User ID=sa;Password=*29acBgj&lt;/ConnectionString&gt;
+  &lt;ProviderName&gt;System.Data.SqlClient&lt;/ProviderName&gt;
+&lt;/SerializableConnectionString&gt;</DesignTimeValue>
+      <Value Profile="(Default)">Data Source=svru1mssql01;Initial Catalog=DayX;Persist Security Info=True;User ID=sa;Password=*29acBgj</Value>
+    </Setting>
+    <Setting Name="sDefaultOU" Type="System.String" Scope="User">
+      <Value Profile="(Default)">OU=NCH,DC=prettl,DC=local</Value>
+    </Setting>
+    <Setting Name="AD_user_name" Type="System.String" Scope="User">
+      <Value Profile="(Default)">test</Value>
+    </Setting>
+    <Setting Name="AD_user_password" Type="System.String" Scope="User">
+      <Value Profile="(Default)">test</Value>
+    </Setting>
+    <Setting Name="PathForSaveFile" Type="System.String" Scope="User">
+      <Value Profile="(Default)">\\svru1file01\groups\DD\000_DRW\000_Initialisation</Value>
+    </Setting>
+    <Setting Name="EmailChecker" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="DB_IP" Type="System.String" Scope="User">
+      <Value Profile="(Default)">svru1mysql01</Value>
+    </Setting>
+    <Setting Name="DB_Login" Type="System.String" Scope="User">
+      <Value Profile="(Default)">adm</Value>
+    </Setting>
+    <Setting Name="DB_Pass" Type="System.String" Scope="User">
+      <Value Profile="(Default)">EwS@Y*WYe9Lv</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
